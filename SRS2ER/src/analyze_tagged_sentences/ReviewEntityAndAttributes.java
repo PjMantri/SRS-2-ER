@@ -2,6 +2,7 @@ package analyze_tagged_sentences;
 
 import read_tagged_sentences.*;
 
+/*Testing if these changes are visible*/
 public class ReviewEntityAndAttributes {
 
 	Tagged t;
