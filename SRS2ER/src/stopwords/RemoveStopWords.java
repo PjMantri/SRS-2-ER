@@ -1,4 +1,4 @@
-package stop_words;
+package stopwords;
 
 import node.*;
 import read_training_data_xml.ReadXML;
@@ -31,7 +31,6 @@ public class RemoveStopWords {
 	}
 
 	public RemoveStopWords() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public  Map<Integer,String> RemoveStopWord(String sentence,Map<Integer,String> pos) {
@@ -55,7 +54,7 @@ public class RemoveStopWords {
 			v++;
 
 			// check from stop words loaded
-			for (String j : LoadStopWords.stopWord) {
+			for (String j : LoadStopWords.getStopWords()) {
 
 				// If word in the sentence is a stop word
 				if (j.equalsIgnoreCase(s1)) {

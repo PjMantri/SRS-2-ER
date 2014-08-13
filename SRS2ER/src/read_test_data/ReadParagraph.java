@@ -18,7 +18,6 @@ public class ReadParagraph {
 		try {
 			fr = new FileReader("paragraph.txt");
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			System.err.println("File Not Found");
 		}
 		br = new BufferedReader(fr);
@@ -40,7 +39,6 @@ public class ReadParagraph {
 
 			}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
