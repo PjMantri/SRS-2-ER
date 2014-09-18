@@ -49,14 +49,14 @@ public class ERTagTestData {
 			// Trace the Trie till node contains pos tag
 			if (n.edges.containsKey(posTag[i])) {
 
-				System.out.println("Contains " + posTag[i]);
+				//System.out.println("Contains " + posTag[i]);
 				n = n.edges.get(posTag[i]);
 
 				// System.out.println("-------------- "+n.edges);
 
 			} else // tags not found in trie
 			{
-				System.out.println("\nTRIE DOESNT CONTAIN " + posTag[i]);
+				//System.out.println("\nTRIE DOESNT CONTAIN " + posTag[i]);
 
 				// p.fw.writeChars("NOT PRESENT IS  " + eng);
 
@@ -88,7 +88,7 @@ public class ERTagTestData {
 
 			Sequence s = e.getKey();
 			int v = e.getValue();
-			System.out.println("Frequency is " + v);
+			System.out.println("\n\nFrequency is " + v);
 			System.out.println("English sentence is " + sentence);
 			System.out.println("POS sequence after removing stop words "
 					+ s.pos);
@@ -98,12 +98,17 @@ public class ERTagTestData {
 
 			while (en.hasNext()) {
 				Entity ee = en.next();
-				int ename = ee.entity_name;
+				String[] entityId = ee.entity_word_id.split(";");
 
-				System.out.println("well enitty is word number " + ename);
-				System.out.println("Entity is : " + engSentence[ename]);
-				System.out.println("Attribute of " + engSentence[ename]
-						+ " are ");
+				int ename,elen,aname,alen;
+				
+				ename=Integer.valueOf(entityId[0]);
+				elen=Integer.valueOf(entityId[1]);
+				System.out.println("\nEntity :");
+				
+				for(int k=ename;k<(ename+elen);k++)
+				System.out.print( engSentence[k]);
+				System.out.println("\n\nAttribute are ");
 				List<Attribute> aa = ee.Attr;
 
 				Iterator<Attribute> ai = aa.iterator();
@@ -111,11 +116,15 @@ public class ERTagTestData {
 				while (ai.hasNext()) {
 
 					Attribute a = ai.next();
-					int aname = a.attribute_name;
-					System.out.println(engSentence[aname]);
+					String[] attrId = a.attribute_word_id.split(";");
+					aname=Integer.valueOf(attrId[0]);
+					alen=Integer.valueOf(attrId[1]);
+					
+					for(int k=aname;k<(aname+alen);k++)
+					System.out.println( engSentence[k]);
 				}
 			}
-
+/*
 			List<Relationship> rel = s.RelationShips;
 
 			Iterator<Relationship> relation = rel.iterator();
@@ -136,7 +145,7 @@ public class ERTagTestData {
 				}
 
 			}
-
+*/
 		}
 
 		reachedLeaf = false;

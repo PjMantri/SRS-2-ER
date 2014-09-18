@@ -52,14 +52,14 @@ public class InsertIntoTrie {
 
 			if (nextNode.edges.containsKey(nextPOS)) {
 				nextNode = nextNode.edges.get(nextPOS);
-				System.out.println("Already present ");
+			//	System.out.println("Already present ");
 
 			} else // tag not found in trie
 			{
 				// create a new node to be inserted
 				Node temp = new Node();
 
-				System.out.println("Inserting " + nextPOS);
+				//System.out.println("Inserting " + nextPOS);
 
 				// Insert new node in the trie with POS tag not
 				// found in the trie and next node for the edge
@@ -101,7 +101,7 @@ public class InsertIntoTrie {
 
 			// create a new node to be inserted
 			Node temp = new Node();
-			System.out.println("Inserting " + nextPOS);
+		//	System.out.println("Inserting " + nextPOS);
 
 			// Insert new node POS and next node for the edge
 			nextNode.edges.put(nextPOS, temp);

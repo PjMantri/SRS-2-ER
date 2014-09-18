@@ -59,15 +59,15 @@ public class RemoveStopWords {
 				// If word in the sentence is a stop word
 				if (j.equalsIgnoreCase(s1)) {
 
-					System.out.println("Removing word " + j);
+				//	System.out.println("Removing word " + j);
 					// remove English word
 					i.remove();
 
 					// remove corresponding POS tag
 					pos.remove(v);
 
-					System.out.println(" After removing at " + v + " POS sequence becomes    "
-							+ pos);
+					//System.out.println(" After removing at " + v + " POS sequence becomes    "
+						//	+ pos);
 
 					// break and check for next word in the sentnce
 					break;
@@ -77,7 +77,7 @@ public class RemoveStopWords {
 			}
 
 		}
-		System.out.println(engSentences);
+		//System.out.println(engSentences);
 		return pos;
 	}
 }

@@ -45,9 +45,9 @@ public class POSTagTestData {
 		POSSequence = POS.values();
 		IndexSequence = POS.keySet();
 
-		System.out.println(POSSequence);
-		System.out.println();
-		System.out.println(IndexSequence);
+		//System.out.println(POSSequence);
+		//System.out.println();
+		//System.out.println(IndexSequence);
 
 		// ER tag Test Data
 

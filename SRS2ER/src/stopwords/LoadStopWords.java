@@ -31,7 +31,7 @@ public class LoadStopWords {
 
 	/**
 	 * Default constructor
-	 * When no parameter is passed, it tries to load stopwords form file "stopWords.csv".
+	 * When no parameter is passed, it tries to load stopwords from file "stopWords.csv".
 	 */
 	public LoadStopWords() {
 		this("stopwords.csv");
