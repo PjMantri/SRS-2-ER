@@ -1,0 +1,47 @@
+John, the CEO of a company, plays golf.
+John, CEO of the company, plays golf.
+John who is CEO of a company plays golf.
+John plays golf and John is a CEO of a company.
+I tried to speak Spanish, and my friend tried to speak English.
+Alejandro played football, so Maria went shopping.
+Alejandro played football, for Maria went shopping.
+Enrolled course should not be taken before by that student and the student should satisfy the pre-requisite for that course.
+A student will have library card and can issue at most 3 books from the library.
+The woman who called my mom sells cosmetics.
+The book that Jonathan read is on the shelf.
+The house which Abraham Lincoln was born in is still standing.
+The town where I grew up is in the United States.
+A student can participate in participate in communities and attendance in meetings are recorded.
+	A community can have many members but only one admin.
+	Community can host events but those events are to be registered before the academic year starts.
+	A course cannot span more than 40 lectures and has five units.
+	Every unit of the course has self-study part and homework.
+	A students has to earn credits and every course has a threshold to pass
+	Home assignment are given by lecturers and are to be submitted by students in given deadline
+	Full marks are given if assignments are submitted before deadline but no marks are given after deadline.
+	Less marks are awarded for assignments submitted before deadline, for marks depend on time of submission.
+	A lecturer can take surprise tests but the number of tests should not increase more than two.
+	Course can be theoretical or practical so some course have lab sessions.
+	Defaulters are not allowed to sit in exam as attendance is compulsory.
+	A teacher can guide students regarding project but he cannot guide more than 5 project groups.
+	Students can take group project but the number of students in the group should not be more than 5
+	A project has a title, guide, group members and domain and the domain should be one of the speciality of the guide.
+	A project can be real world project or hypothetical and real world projects carry more marks
+	A student has to secure minimum marks to pass in any subject yet he may fail if he is defaulter.
+	Students participating in extracurricular activities are given exemption from attendance but the exemption is only 5% of the total attendance of the course
+	All students from third year can participate in campus placements but they should not have any backlog.
+	Students not securing passing marks in any subject will have to clear that subject, so unclear subjects are backlog of that particular student.
+	Student passing in all subjects but failing in viva is not awarded any credits
+	Student can keep a book for at most 10 days from the date of issuing and after that date a fine of 10 Rs per day is to be paid
+	Student give feedback of subject and teacher and accordingly rank of teacher is set
+	Students are divided among different divisions and they are further divided in batches
+	A batch can be of 10 or more students but the students should not be more than 20.
+	A student can take 4 courses at a time but any number of projects.
+	The hospital is divided into wings which are further divided into floor.
+	A department may span multiple floors but it cannot go across multiple wings
+	Booking can be done online for which registered users will get bonus points.
+	Employees are managed by team leaders which are managed by project managers.
+
+	
+	
+	
