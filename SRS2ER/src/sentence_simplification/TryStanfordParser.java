@@ -157,9 +157,7 @@ public class TryStanfordParser {
 
 		while (i.hasNext()) {
 			t = i.next();
-
 			
-		
 			String s = t.reln().toString();
 
 			// Clauses not same as Subjects not to be added
